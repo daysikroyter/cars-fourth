@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header header-default">
+      <div class="container">
+        <nav class="menu">
+          <a class="logo" href="index.html">
+            <img class="logo__img" src="images/logo.png" alt="logo" />
+          </a>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="index.html">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="about.html">О нас</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="contacts.html">Контакты</a>
+            </li>
+          </ul>
+          <a class="menu__btn" data="hamburger-menu">
+            <b></b>
+            <b></b>
+            <b></b>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="product">
+        <div class="container-fluid">
+          <div class="product__inner">
+            <div class="swiper product__swiper">
+              <div class="swiper-wrapper product__swiper-wrapper">
+                <div class="swiper-slide product__swiper-slide">
+                  <img class="product__img" src="images/cars/audi.jpg" alt="">
+                </div>
+                <div class="swiper-slide product__swiper-slide">
+                  <img class="product__img" src="images/cars/audi-2.jpg" alt="">
+                </div>
+                <div class="swiper-slide product__swiper-slide">
+                  <img class="product__img" src="images/cars/audi-3.webp" alt="">
+                </div>
+                <div class="swiper-slide product__swiper-slide">
+                  <img class="product__img" src="images/cars/audi-4.avif" alt="">
+                </div>
+                <div class="swiper-slide product__swiper-slide">
+                  <img class="product__img" src="images/cars/audi-5.webp" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="product__box">
+              <h1 class="product__title">Toyota Avensis</h1>
+              <dl class="product__list">
+                <div class="product__item">
+                  <dt>Модель:</dt>
+                  <dd>Audi A8</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Кузов:</dt>
+                  <dd>Седан</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Двигатель:</dt>
+                  <dd>3.0 TFSI / 4.0 TFSI</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Привод:</dt>
+                  <dd>Полный (quattro)</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Коробка:</dt>
+                  <dd>8-ступ. автомат</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Разгон 0-100 км/ч:</dt>
+                  <dd>250 км/ч</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Максимальная скорость:</dt>
+                  <dd>8-ступ. автомат</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Расход:</dt>
+                  <dd>От 7.8 л/100 км</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Оснащение:</dt>
+                  <dd>Matrix LED фары</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Безопасность:</dt>
+                  <dd>Круиз-контроль</dd>
+                </div>
+                <div class="product__item">
+                  <dt>Дополнительно</dt>
+                  <dd>Подогрев сидений</dd>
+                </div>
+              </dl>
+              <p class="product__price">
+                <span>Стоимость:</span><span>666,666$</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2 class="product__descr">
+            Описание:
+          </h2>
+          <p class="product__text">
+            Audi A8 – это флагманский седан премиум-класса, сочетающий
+            элегантный дизайн, передовые технологии и мощные двигатели.
+          </p>
+          <p class="product__text">
+            Автомобиль оснащен интеллектуальной системой полного привода
+            quattro, пневматической подвеской и инновационными ассистентами
+            водителя.
+          </p>
+          <p class="product__text">
+            В салоне премиальные материалы, мультимедийная система MMI с
+            сенсорными дисплеями и высокий уровень комфорта для всех пассажиров.
+          </p>
+          <p class="product__next">
+            Понравилось? <a href="contacts.html">Свяжитесь с нами!</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__nav">
+          <a class="logo" href="index.html">
+            <img class="logo__img" src="images/logo.png" alt="logo" />
+          </a>
+          <a class="footer__phone" href="tel:+37362042038">+373 (62) 042 038</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
