@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Baumans&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header header-default">
+    <header class="header">
       <div class="container">
         <nav class="menu">
           <a class="logo" href="index.html">
@@ -45,32 +45,37 @@
       </div>
     </header>
     <main class="main">
-      <section class="about">
-        <div class="container-fluid">
-          <div
-            class="about__header"
-            style="background-image: url('images/about-bg.png')"
-          >
-            <div class="about__header-inner">
-              <h1 class="about__title">О нас</h1>
-              <p class="about__subtitle">Кто мы и чем мы занимаемся?</p>
-            </div>
+      <section
+        class="hero"
+        style="background-image: url('images/about-bg.png')"
+      >
+        <div class="container">
+          <div class="hero__inner">
+            <h1 class="hero__title">
+              <span>Кто мы?</span>
+              <span class="hero__title-text"
+                >Или почему вы должны выбрать именно нас?</span
+              >
+            </h1>
+            <a class="arrows__link" href="#about">
+              <div class="arrows__item"></div>
+            </a>
           </div>
         </div>
+      </section>
+      <section class="about" id="about">
         <div class="container">
+          <p class="about__descr">
+            Мы — команда, которая любит автомобили и всё, что с ними связано.
+            Наша цель — сделать покупку машины простой, удобной и честной. Мы
+            тщательно отбираем авто, сотрудничаем только с надежными продавцами
+            и предлагаем широкий выбор — от доступных городских моделей до
+            премиальных брендов.
+          </p>
+          <img class="about__image" src="images/about-1.png" alt="" />
           <ul class="about__list">
             <li class="about__item">
-              <p class="about__text">
-                Мы — команда, которая любит автомобили и всё, что с ними
-                связано. Наша цель — сделать покупку машины простой, удобной и
-                честной. Мы тщательно отбираем авто, сотрудничаем только с
-                надежными продавцами и предлагаем широкий выбор — от доступных
-                городских моделей до премиальных брендов.
-              </p>
-              <img class="about__img" src="images/about-1.png" alt="about" />
-            </li>
-            <li class="about__item">
-              <img class="about__img" src="images/about-2.png" alt="about" />
+              <img class="about__img" src="images/about-2.png" alt="" />
               <p class="about__text">
                 На нашем сайте вы найдете как новые, так и подержанные
                 автомобили с полной историей и прозрачными условиями покупки. Мы
@@ -80,13 +85,13 @@
               </p>
             </li>
             <li class="about__item">
-              <p class="about__text about__text--last">
+              <p class="about__text">
                 Мы ценим доверие и комфорт наших клиентов. Поэтому всегда готовы
                 помочь на каждом этапе: от подбора авто до оформления сделки.
                 Покупка машины — это важное решение, и мы здесь, чтобы сделать
                 его правильным и уверенным.
               </p>
-              <img class="about__img" src="images/about-3.png" alt="about" />
+              <img class="about__img" src="images/about-3.png" alt="" />
             </li>
           </ul>
         </div>

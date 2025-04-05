@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Baumans&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header header-default">
+    <header class="header header-default header-base">
       <div class="container">
         <nav class="menu">
           <a class="logo" href="index.html">
@@ -48,25 +48,54 @@
       <section class="product">
         <div class="container-fluid">
           <div class="product__inner">
-            <div class="swiper product__swiper">
-              <div class="swiper-wrapper product__swiper-wrapper">
-                <div class="swiper-slide product__swiper-slide">
-                  <img class="product__img" src="images/cars/audi.jpg" alt="">
-                </div>
-                <div class="swiper-slide product__swiper-slide">
-                  <img class="product__img" src="images/cars/audi-2.jpg" alt="">
-                </div>
-                <div class="swiper-slide product__swiper-slide">
-                  <img class="product__img" src="images/cars/audi-3.webp" alt="">
-                </div>
-                <div class="swiper-slide product__swiper-slide">
-                  <img class="product__img" src="images/cars/audi-4.avif" alt="">
-                </div>
-                <div class="swiper-slide product__swiper-slide">
-                  <img class="product__img" src="images/cars/audi-5.webp" alt="">
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
+            <div class="product__preview">
+              <ul class="tabs__container product__container">
+                <li
+                  id="product-tab-1"
+                  class="product__comp tabs-content tabs-content--active"
+                >
+                  <img src="images/cars/audi.jpg" alt="" />
+                </li>
+                <li id="product-tab-2" class="product__comp tabs-content">
+                  <img src="images/cars/audi-2.jpg" alt="" />
+                </li>
+                <li id="product-tab-3" class="product__comp tabs-content">
+                  <img src="images/cars/audi-3.webp" alt="" />
+                </li>
+                <li id="product-tab-4" class="product__comp tabs-content">
+                  <img src="images/cars/audi-4.avif" alt="" />
+                </li>
+                <li id="product-tab-5" class="product__comp tabs-content">
+                  <img src="images/cars/audi-5.webp" alt="" />
+                </li>
+              </ul>
+              <ul class="product__tabs tabs">
+                <li class="product__tab-item">
+                  <a class="product__tab tab tab--active" href="#product-tab-1"
+                    ><img src="images/cars/audi.jpg" alt=""
+                  /></a>
+                </li>
+                <li class="product__tab-item">
+                  <a class="product__tab tab" href="#product-tab-2">
+                    <img src="images/cars/audi-2.jpg" alt="" />
+                  </a>
+                </li>
+                <li class="product__tab-item">
+                  <a class="product__tab tab" href="#product-tab-3">
+                    <img src="images/cars/audi-3.webp" alt="" />
+                  </a>
+                </li>
+                <li class="product__tab-item">
+                  <a class="product__tab tab" href="#product-tab-4">
+                    <img src="images/cars/audi-4.avif" alt="" />
+                  </a>
+                </li>
+                <li class="product__tab-item">
+                  <a class="product__tab tab" href="#product-tab-5">
+                    <img src="images/cars/audi-5.webp" alt="" />
+                  </a>
+                </li>
+              </ul>
             </div>
             <div class="product__box">
               <h1 class="product__title">Toyota Avensis</h1>
@@ -121,27 +150,6 @@
               </p>
             </div>
           </div>
-        </div>
-        <div class="container">
-          <h2 class="product__descr">
-            Описание:
-          </h2>
-          <p class="product__text">
-            Audi A8 – это флагманский седан премиум-класса, сочетающий
-            элегантный дизайн, передовые технологии и мощные двигатели.
-          </p>
-          <p class="product__text">
-            Автомобиль оснащен интеллектуальной системой полного привода
-            quattro, пневматической подвеской и инновационными ассистентами
-            водителя.
-          </p>
-          <p class="product__text">
-            В салоне премиальные материалы, мультимедийная система MMI с
-            сенсорными дисплеями и высокий уровень комфорта для всех пассажиров.
-          </p>
-          <p class="product__next">
-            Понравилось? <a href="contacts.html">Свяжитесь с нами!</a>
-          </p>
         </div>
       </section>
     </main>

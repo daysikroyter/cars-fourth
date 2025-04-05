@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Baumans&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header header-default">
+    <header class="header">
       <div class="container">
         <nav class="menu">
           <a class="logo" href="index.html">
@@ -45,47 +45,33 @@
       </div>
     </header>
     <main class="main">
-      <section class="contacts">
-        <div class="container-fluid">
-          <div
-            class="contacts__header"
-            style="background-image: url('images/contacts-bg.png')"
-          >
-            <div class="about__header-inner">
-              <h1 class="contacts__title">Контакты</h1>
-              <p class="contacts__subtitle">Мы перезвоним Вам и проконсультируем по любому вопросу
-
-</p>
-            </div>
+      <section
+        class="hero"
+        style="background-image: url('images/contacts-bg.png')"
+      >
+        <div class="container">
+          <div class="hero__inner">
+            <h1 class="hero__title">
+              <span>Контакты</span>
+              <span class="hero__title-text"
+                >Или как вы можете с нами связаться?</span
+              >
+            </h1>
+            <a class="arrows__link" href="#contacts">
+              <div class="arrows__item"></div>
+            </a>
           </div>
         </div>
+      </section>
+      <section class="contacts" id="contacts">
         <div class="container">
-          <div class="contacts__content">
-            <div class="contacts__info">
-              <p class="contacts__text">
-                Мы всегда на связи и готовы помочь вам с выбором автомобиля,
-                консультацией или оформлением сделки. Если у вас возникли
-                вопросы — свяжитесь с нами любым удобным способом:
-              </p>
-              <ul class="contacts__list">
-                <li class="contacts__item">
-                  <a
-                    class="contacts__link contacts__link--phone"
-                    href="tel:+37362042038"
-                    >+373 (62) 042 038</a
-                  >
-                </li>
-                <li class="contacts__item">
-                  <a
-                    class="contacts__link contacts__link--email"
-                    href="mailto:nubchenko@gmail.com"
-                    >nubchenko@gmail.com</a
-                  >
-                </li>
-              </ul>
-            </div>
+          <div class="contacts__inner">
+            <img class="contacts__img" src="images/form-img.png" alt="" />
             <form class="contacts__form">
-              <strong class="contacts__form-title">Оставить заявку</strong>
+              <strong class="contacts__form-title"> Остались вопросы? </strong>
+              <p class="contacts__text">
+                Мы перезвоним Вам и проконсультируем по любому вопросу
+              </p>
               <input class="contacts__input" type="text" placeholder="Имя" />
               <input
                 class="contacts__input"
